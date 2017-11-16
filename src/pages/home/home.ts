@@ -9,6 +9,8 @@ import { LocationTrackerServices } from '../../providers/location-tracker';
 })
 export class HomePage {
 
+  rutas: any[] = [];
+
   constructor(
     public navCtrl: NavController,
     public locationTracker: LocationTrackerServices
@@ -22,6 +24,11 @@ export class HomePage {
  
   stop(){
     this.locationTracker.stopTracking();
+  }
+
+  save() {
+    const ruta = 'pruebas'; 
+    this.locationTracker.getAdd(ruta);
   }
 
 }
