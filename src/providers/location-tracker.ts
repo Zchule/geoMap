@@ -101,7 +101,7 @@ export class LocationTrackerServices {
 
       this.rutasListRef.push({
         hora: `${today.getHours()}:${today.getMinutes()}:${today.getMinutes()}`,
-        latitude: position.coords.latitude,
+        latitud: position.coords.latitude,
         longitud: position.coords.longitude,
       });
 
