@@ -18,17 +18,20 @@ export class HomePage {
 
   }
 
-  start(){
-    this.locationTracker.startTracking();
+  ionViewDidLoad(){
+    //this.locationTracker.seedData();
   }
- 
+
+  start(){
+    setInterval(() => {
+      this.locationTracker.startTracking();
+    }, 5000);
+
+  }
+
   stop(){
     this.locationTracker.stopTracking();
   }
 
-  save() {
-    const ruta = 'pruebas'; 
-    this.locationTracker.getAdd(ruta);
-  }
 
 }

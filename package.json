@@ -33,6 +33,7 @@
     "cordova-plugin-ionic-webview": "^1.1.16",
     "cordova-plugin-mauron85-background-geolocation": "^2.3.3",
     "cordova-plugin-splashscreen": "^4.1.0",
+    "cordova-plugin-statusbar": "^2.3.0",
     "cordova-plugin-whitelist": "^1.3.3",
     "firebase": "^4.6.2",
     "ionic-angular": "3.9.2",
@@ -63,7 +64,8 @@
       "cordova-plugin-ionic-webview": {},
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-whitelist": {},
-      "ionic-plugin-keyboard": {}
+      "ionic-plugin-keyboard": {},
+      "cordova-plugin-statusbar": {}
     },
     "platforms": [
       "android"

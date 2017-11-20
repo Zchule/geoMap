@@ -18,18 +18,18 @@ import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 
 const config = {
-  apiKey: "AIzaSyCNpCgHH43amuKWOSeE2VciLO_dTTAgY_4",
-  authDomain: "storeexpress-96317.firebaseapp.com",
-  databaseURL: "https://storeexpress-96317.firebaseio.com",
-  projectId: "storeexpress-96317",
-  storageBucket: "storeexpress-96317.appspot.com",
-  messagingSenderId: "121943709428"
+  apiKey: 'AIzaSyAJDgpY9ssAyjIX_vA7S1D_fgcA26BBvxQ',
+  authDomain: 'svmmoviltest.firebaseapp.com',
+  databaseURL: 'https://svmmoviltest.firebaseio.com',
+  projectId: 'svmmoviltest',
+  storageBucket: 'svmmoviltest.appspot.com',
+  messagingSenderId: '1094384829553'
 };
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage 
+    HomePage
   ],
   imports: [
     BrowserModule,
